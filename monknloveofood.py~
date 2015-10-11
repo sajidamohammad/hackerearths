@@ -1,0 +1,12 @@
+test=int(raw_input())
+q1=[]
+q2=[]
+q=[]
+for i in range(test):
+	q12.append(map(int,raw_input().split(" "))
+for lst in q:
+	if (len(lst)==1 and lst[0]==1):
+		print q2[0]
+	elif (len(lst)==2 and lst[0]==2):
+		q2.append(lst[1])
+	

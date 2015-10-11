@@ -1,0 +1,12 @@
+test=int(raw_input())
+count=0
+for i in range(test):
+	call=map(int,raw_input().split(" "))
+for i in range(test):
+	ideal=map(int,raw_input().split(" "))
+if cmp(call,ideal)==0:
+	print test
+else:
+	for i in range(test):
+		call[i],call[-1]=call[-1],call[i]
+		count=count+1
